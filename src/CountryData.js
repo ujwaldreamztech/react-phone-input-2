@@ -18,6 +18,7 @@ function initCountries(countries, enableAreaCodes, prefix, defaultMask, alwaysDe
   else { enableAllCodes = false }
 
   const initializedCountries = [].concat(...countries.map((country) => {
+    console.log('ss')
     const countryItem = {
       name: country[0],
       regions: country[1],
