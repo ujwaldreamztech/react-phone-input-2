@@ -29,8 +29,6 @@ function initCountries(countries, enableAreaCodes, prefix, defaultMask, alwaysDe
       hasAreaCodes: country[6] ? true : false,
     };
     
-    console.log(getMask(country[3],country[4], prefix, country[3], country[4], defaultMask, alwaysDefaultMask))
-
     const areaItems = [];
 
     country[6] &&
